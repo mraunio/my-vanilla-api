@@ -251,7 +251,7 @@ Fruit<br>
     <option value="Eggs">Eggs</option>
     <option value="Other">Other</option>
   </select>
-
+</form>
 <br>
 
 
@@ -266,6 +266,7 @@ Fruit<br>
     <option value="Medicinal">Medicinal</option>
     <option value="Other">Other</option>
   </select>
+</form>
 <br>
 
 <br>
@@ -287,26 +288,71 @@ Fruit<br>
     <option value="Tea">Tea</option>
     <option value="Mulch">Other</Other>
   </select>
+</form>
 <br>
 <br>
 
 <h2>Palate</h2><br>
 <br>
-Flavor<br>
 <br>
-Sweet, Salty, Sour, Bitter, Umami<br>
+<form action="/action_page2.php">
+  <label for="Flavor">Flavor :</label>
+  <select name="Flavor" id="Flavor">
+    <option value="Sweet">Sweet</option>
+    <option value="Salty">Salty</option>
+    <option value="Sour">Sour</option>
+    <option value="Bitter">Bitter</option>
+    <option value="Umami">Umami</option>
+      </select>
+</form>
 <br>
-Proof<br> 
-Low, 2, 3, 4, High<br>
+<br> 
+<form action="/action_page2.php">
+  <label for="Proof">Proof :</label>
+  <select name="Proof" id="Proof">
+    <option value="Low">Low</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="High">High</option>
+      </select>
+</form>
 <br>
-Body<br>
-Light, 2, 3, 4, Full<br>
+<form action="/action_page2.php">
+  <label for="Body">Body :</label>
+  <select name="Body" id="Body">
+    <option value="Light">Light</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="Full">Full</option>
+      </select>
+</form>
 <br>
-Texture<br>
-Creamy, Sharp, Round, Light, Delicate, Heavy, Rich,Other:<br>
+
+<br>
+<br>
+<form action="/action_page2.php">
+  <label for="Texture">Texture :</label>
+  <select name="Texture" id="Texture">
+    <option value="Creamy">Creamy</option>
+    <option value="Sharp">Sharp</option>
+    <option value="Round">Round</option>
+    <option value="Light">Light</option>
+    <option value="Delicate">Delicate</option>
+    <option value="Heavy">Heavy</option>
+    <option value="Rich">Rich</option>
+    <option value="Other">Other</option>
+      </select>
+</form>
 <br>
 Balance 
-Does any element dominate? If yes, what?<br>
+<br>
+<form>
+  <label for="wtaste">Does any element dominate? If yes, what?:</label><br>
+  <input type="text" id="wtaste" name="wtaste"><br>
+  
+</form>
 <br>
 Finish<br> 
 Short, 2, 3, 4, Long<br>
