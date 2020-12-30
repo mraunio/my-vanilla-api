@@ -34,8 +34,8 @@
 <br>
 <br>
 <form action="/action_page2.php">
-  <label for="Clarity(Opacity)">Color:</label>
-  <select name="Clarity(Opacity)" id="Clarity">
+  <label for="Clarity(Opacity)">Clarity(Opacity):</label>
+  <select name="Clarity(Opacity)" id="Clarity(Opacity)">
     <option value="Clear">Clear</option>
     <option value="Haze">Haze</option>
     <option value="Cloudy">Cloudy</option>
@@ -45,11 +45,32 @@
 </form>
 <br>
 <br>
-Sediments <br>
-No, Light, Moderate, Heavy<br>
+
+<form action="/action_page2.php">
+  <label for="Sediments">Sediments:</label>
+  <select name="Sediments" id="Sediments">
+    <option value="Clear">No</option>
+    <option value="Haze">Light</option>
+    <option value="Cloudy">Moderate</option>
+    <option value="Cloudy">Heavy</option>
+  </select>
+  <br><br>
+  
+</form>
+ <br>
 <br>
-Viscosity (Legs) <br>
-Light, 2, 3, 4, Heavy<br>
+<form action="/action_page2.php">
+  <label for="Viscosity (Legs) ">Viscosity (Legs) :</label>
+  <select name="Viscosity (Legs)" id="Viscosity (Legs)">
+    <option value="Light">Light</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="Heavy">Heavy</option>
+  </select>
+  <br><br>
+<br>
+
 
 
 <br>
@@ -57,7 +78,19 @@ Light, 2, 3, 4, Heavy<br>
 
 <h2>Nose</h2><br>
 <br>
-Intensity
+
+
+<form action="/action_page2.php">
+  <label for="Intensity">Intensity :</label>
+  <select name="Intensity" id="Intensity">
+    <option value="Delicate">Delicate</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="Powerful">Powerful</option>
+  </select>
+  <br><br>
+<br>
 <br>
 Delicate, 2, 3, 4, Powerful<br>
 Age 
